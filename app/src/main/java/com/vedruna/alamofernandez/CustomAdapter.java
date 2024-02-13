@@ -9,12 +9,27 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/**
+ * Adaptador personalizado para mostrar una lista de elementos en un ListView.
+ *
+ * Este adaptador toma dos ArrayLists de cadenas: uno para los elementos principales y otro para los elementos secundarios.
+ * Cada elemento principal se muestra como texto grande y cada elemento secundario se muestra como texto pequeño debajo.
+ *
+ * @author Ricardo Alamo
+ */
 public class CustomAdapter extends ArrayAdapter<String> {
 
-    private Context mContext;
-    private ArrayList<String> mMainItems;
-    private ArrayList<String> mSubItems;
+    private Context mContext; // Contexto de la aplicación
+    private ArrayList<String> mMainItems; // Lista de elementos principales
+    private ArrayList<String> mSubItems; // Lista de elementos secundarios
 
+    /**
+     * Constructor para crear un nuevo adaptador personalizado.
+     *
+     * @param context   El contexto de la aplicación.
+     * @param mainItems Lista de elementos principales.
+     * @param subItems  Lista de elementos secundarios.
+     */
     public CustomAdapter(Context context, ArrayList<String> mainItems, ArrayList<String> subItems) {
         super(context, 0, mainItems);
         mContext = context;
@@ -22,6 +37,14 @@ public class CustomAdapter extends ArrayAdapter<String> {
         mSubItems = subItems;
     }
 
+    /**
+     * Método llamado para obtener la vista de un elemento en la posición especificada en la lista.
+     *
+     * @param position    La posición del elemento en la lista.
+     * @param convertView La vista que se está reciclando (puede ser nula).
+     * @param parent      El ViewGroup al que pertenece la vista.
+     * @return La vista del elemento en la posición dada.
+     */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder;
@@ -41,8 +64,11 @@ public class CustomAdapter extends ArrayAdapter<String> {
         return convertView;
     }
 
+    /**
+     * Clase interna para almacenar vistas de elementos y evitar llamadas innecesarias a findViewById().
+     */
     private static class ViewHolder {
-        TextView mainText;
-        TextView subText;
+        TextView mainText; // Vista de texto para el elemento principal
+        TextView subText; // Vista de texto para el elemento secundario
     }
 }

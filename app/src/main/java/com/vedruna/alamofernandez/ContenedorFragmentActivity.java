@@ -8,21 +8,18 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/**
+ * Esta actividad actúa como contenedor para los fragmentos de la aplicación.
+ * Controla la navegación entre los fragmentos utilizando BottomNavigationView.
+ *
+ * @author Ricardo Alamo
+ */
 public class ContenedorFragmentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contenedorfragmentactivity);
-
-/*
-        String username = getIntent().getStringExtra("usuario");
-
-        TextView nombre = findViewById(R.id.ByUser);
-
-        nombre.setText("Bienvenido, " + username);
-
- */
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.navigation_home);
@@ -46,21 +43,5 @@ public class ContenedorFragmentActivity extends AppCompatActivity {
             return true;
         });
 
-        /*
-        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.navigation_home);
-        NavController navController = navHostFragment.getNavController();
-
-
-        bottomNavigationView.setOnItemSelectedListener(item -> {
-
-            if (item.getItemId() == R.id.navigation_home) {
-                navController.navigate(R.id.homeFragment);
-            } else if (item.getItemId() == R.id.navigation_contador) {
-                navController.navigate(R.id.contadorFragment);
-            }
-            return true;
-        });
-
-         */
     }
 }

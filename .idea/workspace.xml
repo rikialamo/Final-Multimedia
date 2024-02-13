@@ -66,18 +66,29 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a37db3-1ac6-43a7-8f15-ebfd72cce3e0" name="Changes" comment="">
+    <list default="true" id="65a37db3-1ac6-43a7-8f15-ebfd72cce3e0" name="Changes" comment="Fotos y toast en login">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ApiFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ApiFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContadorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContadorFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ApiFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/UpdateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContadorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CreateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContenedorFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContenedorFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapterHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapterHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DTO/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DTO/ProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DeleteFragmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DeleteFragmet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/SalirFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/SalirFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/interfaces/CRUDInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/interfaces/CRUDInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/model/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,6 +267,23 @@
       <option name="presentableId" value="Default" />
       <updated>1705611575590</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fotos y toast en login">
+      <option name="closed" value="true" />
+      <created>1707862096764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707862096764</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fotos y toast en login">
+      <option name="closed" value="true" />
+      <created>1707862109699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707862109699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,5 +296,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fotos y toast en login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fotos y toast en login" />
   </component>
 </project>

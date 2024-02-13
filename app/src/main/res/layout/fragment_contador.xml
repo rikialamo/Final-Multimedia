@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DA8484"
-    tools:context=".ContadorFragment">
+    tools:context=".CreateFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
