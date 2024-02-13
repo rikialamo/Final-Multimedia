@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -110,15 +111,19 @@ public class login extends AppCompatActivity {
     }
 
     private void showAlert(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Error");
-        builder.setMessage("Se ha producido un error auntenticando al usuario");
-        builder.setPositiveButton("Aceptar", null);
-        AlertDialog dialog = builder.create();
-        dialog.show();
+        Toast toast = Toast.makeText(this.getApplicationContext(),
+                "Login error",
+                Toast.LENGTH_LONG);
+        toast.show();
     }
 
     private void showHome(String email, ProviderType provider){
+
+        Toast toast = Toast.makeText(this.getApplicationContext(),
+                "Login correcto",
+                Toast.LENGTH_LONG);
+        toast.show();
+
         Intent intent = new Intent(this, ContenedorFragmentActivity.class);
         intent.putExtra("email",email);
         intent.putExtra("provider",provider.name());

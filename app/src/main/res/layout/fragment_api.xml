@@ -18,6 +18,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
+            android:text="Id:"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Id"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Name:"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
@@ -26,7 +47,7 @@
             android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter the new quantity"
+            android:hint="Enter the new name"
             android:background="@color/white"
             android:drawablePadding="8dp"
             android:textColor="@color/black"
@@ -52,6 +73,26 @@
             android:drawablePadding="8dp"
             android:textColor="@color/black"
             android:padding="8dp"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Name:"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the new description"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:padding="8dp"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -59,22 +100,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Id:"
+            android:text="Name:"
             android:textSize="18sp"
-            android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"/>
 
         <EditText
-            android:id="@+id/editTextId"
+            android:id="@+id/editTextFoto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter the Id"
+            android:hint="Enter the new foto url"
             android:background="@color/white"
             android:drawablePadding="8dp"
-            android:padding="8dp"
             android:textColor="@color/black"
+            android:padding="8dp"
             android:inputType="text"
             android:minHeight="48dp" />
+
 
         <Button
             android:id="@+id/btnUpdate"

@@ -41,6 +41,8 @@ public class ApiFragment extends Fragment {
     private EditText editTextName;
     private EditText editTextPrice;
     private EditText editTextId;
+    private EditText editTextDescripcion;
+    private EditText editTextFoto;
     private Button btnUpdate;
     CRUDInterface crudInterface;
 
@@ -84,6 +86,8 @@ public class ApiFragment extends Fragment {
         btnUpdate = view.findViewById(R.id.btnUpdate);
         editTextName = view.findViewById(R.id.editTextName);
         editTextPrice = view.findViewById(R.id.editTextPrice);
+        editTextDescripcion = view.findViewById(R.id.editTextDescripcion);
+        editTextFoto = view.findViewById(R.id.editTextFoto);
         editTextId = view.findViewById(R.id.editTextId);
 
         btnUpdate.setOnClickListener(new View.OnClickListener() {
@@ -93,7 +97,9 @@ public class ApiFragment extends Fragment {
                         && !editTextPrice.getText().toString().isEmpty()
                         && !editTextId.getText().toString().isEmpty()){
                     ProductoDTO dto = new ProductoDTO(editTextName.getText().toString()
-                            , Integer.parseInt(editTextPrice.getText().toString()));
+                            , Float.parseFloat(editTextPrice.getText().toString()),
+                            editTextDescripcion.getText().toString(),
+                            editTextFoto.getText().toString());
 
 
                     Retrofit retrofit = new Retrofit.Builder()

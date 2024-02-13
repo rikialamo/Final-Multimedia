@@ -1,5 +1,6 @@
 package com.vedruna.alamofernandez;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,6 +14,8 @@ import android.widget.ListView;
 import com.vedruna.alamofernandez.interfaces.CRUDInterface;
 import com.vedruna.alamofernandez.model.Producto;
 
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -97,13 +100,17 @@ public class HomeFragment extends Fragment {
                     productos = response.body();
                     ArrayList<String> mainItems = new ArrayList<>();
                     ArrayList<String> subItems = new ArrayList<>();
+                    ArrayList<String> descripcion = new ArrayList<>();
+                    ArrayList<String> foto = new ArrayList<>();
 
                     for(Producto prod : productos){
                         mainItems.add(prod.getName());
                         subItems.add("Precio: "+prod.getPrice() + "€");
+                        descripcion.add(prod.getDescripción());
+                        foto.add(prod.getFoto());
                     }
 
-                    CustomAdapter adapter = new CustomAdapter(getContext(), mainItems, subItems);
+                    CustomAdapterHome adapter = new CustomAdapterHome(getContext(), mainItems, subItems, descripcion, foto);
                     listHome.setAdapter(adapter);
                 }else {
 
@@ -115,6 +122,18 @@ public class HomeFragment extends Fragment {
                 Log.e("Throw err: ", t.getMessage());
             }
         });
+    }
+
+    private Drawable loadImageFromWebOperations(String url) {
+        try {
+            System.out.println(url);
+            InputStream is = (InputStream) new URL(url).getContent();
+            Drawable d = Drawable.createFromStream(is, "src name");
+            return d;
+        } catch (Exception e) {
+            System.out.println("excetpion");
+            return null;
+        }
     }
 }
 

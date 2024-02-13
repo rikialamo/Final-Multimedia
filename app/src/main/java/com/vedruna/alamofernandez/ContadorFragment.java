@@ -24,6 +24,8 @@ public class ContadorFragment extends Fragment {
 
     private EditText editTextName;
     private EditText editTextPrice;
+    private EditText editTextDescripcion;
+    private EditText editTextFoto;
 
     CRUDInterface crudInterface;
 
@@ -33,6 +35,8 @@ public class ContadorFragment extends Fragment {
 
         editTextName = view.findViewById(R.id.editTextName);
         editTextPrice = view.findViewById(R.id.editTextPrice);
+        editTextDescripcion = view.findViewById(R.id.editTextDescripcion);
+        editTextFoto = view.findViewById(R.id.editTextFoto);
         Button btnAdd = view.findViewById(R.id.btnAdd);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +45,9 @@ public class ContadorFragment extends Fragment {
                 if(!editTextName.getText().toString().isEmpty()
                         && !editTextPrice.getText().toString().isEmpty()){
                     ProductoDTO dto = new ProductoDTO(editTextName.getText().toString()
-                            , Integer.parseInt(editTextPrice.getText().toString()));
+                            , Float.parseFloat(editTextPrice.getText().toString()),
+                            editTextDescripcion.getText().toString(),
+                            editTextFoto.getText().toString());
 
 
                     Retrofit retrofit = new Retrofit.Builder()
