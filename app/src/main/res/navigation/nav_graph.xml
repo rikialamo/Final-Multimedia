@@ -27,7 +27,7 @@
         android:id="@+id/contadorFragment"
         android:name="com.vedruna.alamofernandez.CreateFragment"
         android:label="fragment_contador"
-        tools:layout="@layout/fragment_contador" />
+        tools:layout="@layout/fragment_add" />
     <fragment
         android:id="@+id/salirFragment"
         android:name="com.vedruna.alamofernandez.SalirFragment"
@@ -37,7 +37,7 @@
         android:id="@+id/apiFragment"
         android:name="com.vedruna.alamofernandez.UpdateFragment"
         android:label="fragment_api"
-        tools:layout="@layout/fragment_api" />
+        tools:layout="@layout/fragment_update" />
     <fragment
         android:id="@+id/delete"
         android:name="com.vedruna.alamofernandez.DeleteFragmet"

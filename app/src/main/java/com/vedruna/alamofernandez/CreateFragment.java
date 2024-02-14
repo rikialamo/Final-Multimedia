@@ -40,7 +40,7 @@ public class CreateFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_contador, container, false);
+        View view = inflater.inflate(R.layout.fragment_add, container, false);
 
         editTextName = view.findViewById(R.id.editTextName);
         editTextPrice = view.findViewById(R.id.editTextPrice);

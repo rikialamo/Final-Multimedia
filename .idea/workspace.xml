@@ -10,12 +10,7 @@
           <theme>@style/Theme.GonzalezAlamoM03</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml">
-        <config>
-          <theme>@style/Theme.GonzalezAlamoM03</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add.xml">
         <config>
           <theme>@style/Theme.GonzalezAlamoM03</theme>
         </config>
@@ -31,6 +26,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_salir.xml">
+        <config>
+          <theme>@style/Theme.GonzalezAlamoM03</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_update.xml">
         <config>
           <theme>@style/Theme.GonzalezAlamoM03</theme>
         </config>
@@ -66,29 +66,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a37db3-1ac6-43a7-8f15-ebfd72cce3e0" name="Changes" comment="Fotos y toast en login">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="65a37db3-1ac6-43a7-8f15-ebfd72cce3e0" name="Changes" comment="javadoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ApiFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/UpdateFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContadorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CreateFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContenedorFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/ContenedorFragmentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapterHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CustomAdapterHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DTO/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DTO/ProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DeleteFragmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/DeleteFragmet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/SalirFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/SalirFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/interfaces/CRUDInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/interfaces/CRUDInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CreateFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/CreateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/UpdateFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vedruna/alamofernandez/UpdateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_update.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contador.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/captura.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707862109699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="javadoc">
+      <option name="closed" value="true" />
+      <created>1707864819915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707864819915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +293,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fotos y toast en login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fotos y toast en login" />
+    <MESSAGE value="javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc" />
   </component>
 </project>

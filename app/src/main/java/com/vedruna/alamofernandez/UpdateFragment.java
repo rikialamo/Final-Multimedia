@@ -72,7 +72,7 @@ public class UpdateFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflar el diseño para este fragmento
-        View view = inflater.inflate(R.layout.fragment_api, container, false);
+        View view = inflater.inflate(R.layout.fragment_update, container, false);
 
         // Inicializar vistas
         btnUpdate = view.findViewById(R.id.btnUpdate);
